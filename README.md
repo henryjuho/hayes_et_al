@@ -13,3 +13,6 @@ The scripts in this repository and their uses are listed below:
 * ```anavar_ctrl_file_autosomes.txt```: Control file for anavar run on autosomal data with 4fold degenerate SNPs as neutral reference.
 * ```anavar_ctrl_file_zchrom_ancestral_repeats.txt```: Control file for anavar run on the Z chromosome data with SNPs in ancestral repeats as neutral reference.
 * ```anavar_ctrl_file_zchrom.txt```: Control file for anavar run on the Z chromosome data with 4fold degenerate SNPs as neutral reference.
+* ```varne_ctrl_file_model1_H2_equalmutationrate_neldermead.txt```: VarNe control file for the equal mutation rate, 2 epoch model.
+* ```varne_ctrl_file_model1_H2_fixedNeratio_neldermead.txt```: VarNe control file for the fixed effective population size ratio, 2 epoch model.
+* ```varne_ctrl_file_model1_H2_general_neldermead.txt```: VarNe control file for the full 2 epoch model.

@@ -1,0 +1,49 @@
+[algorithm]
+algorithmName: NLOPT_LN_NELDERMEAD
+numSearches: 1000000
+maxNumOfFuncEvaluations: 50000
+maxExecutionTime: 1000
+optional: false
+
+[model]
+modelName: MODEL1
+H: 2
+useProfile: true
+numLoci: 2
+thetaRange: 1e-7  0.1
+fRange: 2e-3  500
+gRange: 5e-3  200
+tauRange: 1e-6  1.5
+errRange: 0  1
+constraints: twoLoci_fixedNeRatio[0.75] 
+optional: false
+
+<locus>
+# Z chromosome 
+numSampleSizes: 2
+n: 20
+m: 305966
+folded: true
+# theta = 0.0015, f=1, g_1 = 13.5, tau_1 = 0.1, error=0.1
+sfs: 3908, 1567, 1102, 769, 592, 483, 447, 467, 423, 211
+n: 20
+m: 1180493
+folded: false
+# theta = 0.0015, f=1, g_1 = 13.5, tau_1 = 0.1, error=0.1
+sfs: 2919, 1090, 682, 482, 375, 276, 222, 210, 177, 182, 171, 159, 159, 138, 132, 140, 159, 221, 448      
+
+<locus>
+# Autosomes
+numSampleSizes: 2
+n: 20
+m: 3223585
+folded: true
+# theta = 0.0025, f=3, g_1=6.5, tau_1=0.1, error=0
+sfs: 36354, 16734, 11206, 8517, 7007, 6152, 5670, 5343, 5195, 2572
+n: 20
+m: 13789374
+folded: false
+# theta = 0.0025, f=3, g_1=6.5, tau_1=0.1, error=0
+sfs: 51730, 22136, 13875, 10108, 7990, 6458, 5580, 5053, 4543, 4198, 4093, 3902, 3748, 3794, 3723, 3942, 4236, 5134, 7907
+
+
